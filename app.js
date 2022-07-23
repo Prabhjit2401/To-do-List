@@ -9,8 +9,7 @@ app.use(express.static("public"));
 app.use(express.urlencoded({extended : true}))
 
 // creating a new database using mongoose.
-mongoose.connect("mongodb+srv://admin_prabh:miasanmia@cluster0.thg1w.mongodb.net/todolistDB", {useNewUrlParser : true});
-
+//.....
 const itemsSchema = mongoose.Schema({
     name :{
         type : String,
